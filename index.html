@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <title>Judgement Day</title>
+<body style="background-color:#0d3551;color:#fff;font-family:Verdana,sans-serif;">
+    <center>
+        <h1 style="color:#fff">Judgement Day</h1>
+        <div id="judgement" style="font-size:24px"></div>
+        <img src="21kid.jpeg" alt="21 kid">
+    </center>
+<script>(function judge() {
+  var judgements = ['<b>19</b>. You <b>smart</b>.', '<b>21</b>. You <b>stupid</b>.'];
+  var randomJudgement = Math.floor(Math.random() * judgements.length);
+  document.getElementById('judgement').innerHTML = "You told your brother that 9 + 10 = " + judgements[randomJudgement];
+})();</script>
+</body>
+</html>
